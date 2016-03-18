@@ -26,17 +26,38 @@
 
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">About<span class="caret"></span>
+              <ul class="dropdown-menu">
+                <li><a href="#">Biography</a></li>
+                <li class="divider">
+                  <li><a href="#">Contact Me</a></li>
+                </li>
+              </ul>
+            </a>
+          </li>
+
           <li><a href="#">Tips</a></li>
+            <li><a href="#">Recipes</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Gallery<span class="caret"></span>
               <ul class="dropdown-menu">
                 <li><a href="#">Argentina</a></li>
+                <li class="divider">
                 <li><a href="#">Japan</a></li>
+                </li>
+                <li class="divider">
                 <li><a href="#">Italy</a></li>
+                </li>
+                <li class="divider">
                 <li><a href="#">Ireland</a></li>
+                </li>
+                <li class="divider">
                 <li><a href="#">Norway</a></li>
+                </li>
+                <li class="divider">
                 <li><a href="#">Thailand</a></li>
+                </li>
               </ul>
             </li>
           </ul>
@@ -47,66 +68,71 @@
 <!-- End Nav Bar -->
 <!--carousel-->
 
-<div id="carousel" class="carousel slide jumbotron">
-  <div class="container">
-    <ol class="carousel-indicators">
-      <li class="active" data-target="#carousel" data-slide-to="0"></li>
-      <li data-target="#carousel" data-slide-to="1"></li>
-      <li data-target="#carousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
+  <div id="carousel" class="carousel slide jumbotron">
+    <div class="container">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#carousel" data-slide-to="0"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
 
-      <div class="item active">
-        <h1>Look</h1>
-        <img class="imgc"src="img/see.jpg">
-        <p class="lead">See all of the attractions that the world has to offer.Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit, sed eiusmod tempor incididunt ut labore et dolore <strong>magna</strong> aliqua. Ut enim minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquex ea commodo consequat.</p>
-        <p class="btn-group">
-          <a class="btn btn-default btn-lg" href="#">View</a>
-        </p>
-      </div>
+        <div class="item active">
+          <h1>Look</h1>
+          <img class="imgc"src="img/see.jpg">
+          <p class="lead">See all of the attractions that the world has to offer.Lorem   ipsum dolor sit amet, <strong>consectetur</strong>   adipisicing elit, sed eiusmod tempor incididunt ut labore et dolore   <strong>magna</strong> aliqua. Ut enim minim veniam, quis nostrud   exercitation ullamco laboris nisi ut aliquex ea commodo consequat.</p>
+          <p class="btn-group">
+            <a class="btn btn-default btn-lg" href="#">View</a>
+          </p>
+        </div>
 
-      <div class="item">
-        <h1>Listen</h1>
-          <img class="imgc"src="img/listen2.jpg">
-        <p class="lead">Hear different stories from people all over the globe.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquex ea commodo consequat.</p>
-        <p class="btn-group">
-          <a class="btn btn-default btn-lg" href="#">Listen Here</a>
-        </p>
-      </div>
+        <div class="item">
+          <h1>Listen</h1>
+            <img class="imgc"src="img/listen2.jpg">
+            <p class="lead">Hear different stories from people all over the globe.Lorem   ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim minim veniam, quis   nostrud exercitation ullamco laboris nisi ut aliquex ea commodo   consequat.</p>
+            <p class="btn-group">
+              <a class="btn btn-default btn-lg" href="#">Listen Here</a>
+            </p>
+          </div>
 
-      <div class="item">
-        <h1>Taste</h1>
-          <img class="imgc"src="img/taste.jpeg">
-        <p class="lead">Try food from around the world.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquex ea commodo consequat.</p>
+          <div class="item">
+            <h1>Taste</h1>
+            <img class="imgc"src="img/taste.jpeg">
+            <p class="lead">Try food from around the world.Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed eiusmod tempor incididunt:
+              <ol>
+                <li>ut labore et dolore magna aliqua.</li>
+                <li>Ut enim minim veniam, quis</li>
+                <li> nostrud exercitation ullamco laboris</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carousel" data-slide="prev">
+          <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel" data-slide="next">
+          <span class="icon-next"></span>
+        </a>
       </div>
-    </div>
-  </div>
-  <a class="left carousel-control" href="#carousel" data-slide="prev">
-    <span class="icon-prev"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel" data-slide="next">
-    <span class="icon-next"></span>
-  </a>
-</div>
 <!--End Carousel -->
 
-<div class="container-fluid">
-  <div id="middle" class="row">
+  <div class="container-fluid">
+    <div id="middle" class="row">
 
 <!--About Section-->
-    <div class="col-md-4">
-      <div id="mid">
-      <h2>About Me</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquex ea commodo consequat. Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exceptesint occaecat cupidatat non proident, sunt in culpa qui officia deserumollit anim id est laborum.</p>
-      <a class="btn btn-default" href="#" role="button">Read More</a>
+      <div class="col-md-4">
+        <div id="mid">
+          <h2>About Me</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed deiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquiex ea commodoconsequat Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <a class="btn btn-default" href="#" role="button">Read More</a>
+        </div>
       </div>
-    </div>
 <!--End About -->
 <!--Tips Section-->
     <div class="col-md-4">
       <div id="mid">
       <h2>Tips For Traveling</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed deiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquiex ea commodoconsequat. Duis aute irure dolor in reprehenderit ivoluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteusint occaecat cupidatat nonproident, sunt in culpa qui officia deserunmollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed deiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquiex ea commodoconsequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
       <a class="btn btn-default" href="#" role="button">Read More</a>
       </div>
     </div>
@@ -115,62 +141,101 @@
    <div class="col-md-4">
      <div id="mid">
       <h2>Recipes From The Road</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <a class="btn btn-default" href="#" role="button">Read More</a>
       </div>
     </div>
-
-</div>
+  </div>
 
 <!--End Gallery -->
 
-<!--middle header -->
-<div id="mhead" class="row">
+<div id="bhead" class="row">
   <div class="col-md-12">
-    <h2>Follow My Adventures In These Countries:</h2>
+    <h2>Travel Blogs</h2>
   </div>
 </div>
+
+
+  <div id="bcon" class="row">
+    <div class="col-md-12">
+      <div id="bmid">
+        <h2>Day One in Argentina</a></h2>
+        <h4>Oct 4, 2015</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.           <a href="#">Read More...</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="bcon" class="row">
+    <div class="col-md-12">
+      <div id="bmid">
+        <h2>Day One in Norway</a></h2>
+        <h4>Oct 4, 2015</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="#">Read More...</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="bcon" class="row">
+    <div class="col-md-12">
+      <div id="bmid">
+        <h2>Day One in Italy</a></h2>
+        <h4>Oct 4, 2015</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="#">Read More...</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="econ" class="row">
+    <div class="col-md-12">
+      <div id="bmid">
+        <a class="btn btn-lg btn-default" href="#" role="button">More Entries</a>
+      </div>
+    </div>
+  </div>
+
+<!--middle header -->
+  <div id="mhead" class="row">
+    <div class="col-md-12">
+      <h2>Follow My Adventures In These Countries:</h2>
+    </div>
+  </div>
+
 <!--end middle header -->
+<!--Gallery Section-->
 
-<div id="mcon" class="row">
+  <div id="mcon" class="row">
 
-  <div class="col-sm-4">
-    <ul>
-      <li><a href="#"><img src="img/argentina.jpg"></a>
-        <p>Argentina</p></li>
-      <li><a href="#"><img src="img/ireland.jpg"></a>
+    <div class="col-sm-4">
+      <ul>
+        <li><a href="#"><img src="img/argentina.jpg"></a>
+          <p>Argentina</p></li>
+        <li><a href="#"><img src="img/ireland.jpg"></a>
           <p>Ireland</p></li>
-    </ul>
+      </ul>
+    </div>
+
+      <div class="col-sm-4">
+        <ul>
+          <li><a href="#"><img src="img/japan.jpg"></a>
+            <p>Japan</p></li>
+          <li><a href="#"><img src="img/norway.jpeg"></a>
+            <p>Norway</p></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-4">
+        <ul>
+          <li><a href="#"><img src="img/italy.jpg"></a>
+            <p>Italy</p></li>
+          <li><a href="#"><img src="img/thailand.jpg"></a>
+            <p>Thailand</p></li>
+        </ul>
+      </div>
+
+    </div>
   </div>
-
-  <div class="col-sm-4">
-    <ul>
-      <li><a href="#"><img src="img/japan.jpg"></a>
-        <p>Japan</p></li>
-      <li><a href="#"><img src="img/norway.jpeg"></a>
-        <p>Norway</p></li>
-    </ul>
-  </div>
-
-  <div class="col-sm-4">
-    <ul>
-      <li><a href="#"><img src="img/italy.jpg"></a>
-              <p>Italy</p></li>
-      <li><a href="#"><img src="img/thailand.jpg"></a>
-              <p>Thailand</p></li>
-    </ul>
-  </div>
-
-</div>
-</div>
-
-
-
-
-<!--End Carousel -->
-
-
-
+<!--End Gallery Section-->
 
 
 </div>
