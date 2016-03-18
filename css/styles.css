@@ -2,8 +2,21 @@ body {
   padding-top: 70px;
 }
 
+#middle {
+  text-align: center;
+  margin: 20px;
+}
 
 
+
+#mid {
+  border: 2px solid grey;
+  padding: 40px;
+}
+
+#mid p {
+  padding: 10px;
+}
 
 /* Carousel*/
 
@@ -11,14 +24,10 @@ body {
   bottom: 0;
 }
 
-}
 
-.item {
-  text-align: right;
-
-}
 #carousel h1 {
   text-align: left;
+  padding-right: 50px;
 }
 
 #carousel p {
@@ -36,4 +45,5 @@ margin-bottom: 20px;
 
 #carousel {
   background-color: #b3ccff;
+
 }

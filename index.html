@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Traveling Stan</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -10,27 +10,40 @@
 
 
 <!--Nav Bar -->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-      <ul class="title-area">
-        <h1>Traveling Stan</h1>
-      </ul>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
 
-    <ul class="nav nav-pills pull-right">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Tips</a></li>
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Gallery<span class="caret"></span>
-        <ul class="dropdown-menu">
-          <li><a href="#">Thailand</a></li>
-          <li><a href="#">Italy</a></li>
-          <li><a href="#">Tortola</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand text-muted">Traveling Stan</a>
+      <div class="collapse navbar-collapse">
+
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Tips</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Gallery<span class="caret"></span>
+              <ul class="dropdown-menu">
+                <li><a href="#">Thailand</a></li>
+                <li><a href="#">Italy</a></li>
+                <li><a href="#">Tortola</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
 <!-- End Nav Bar -->
+<!--carousel-->
+
 <div id="carousel" class="carousel slide jumbotron">
   <div class="container">
     <ol class="carousel-indicators">
@@ -63,15 +76,54 @@
           <img class="imgc"src="img/taste.jpeg">
         <p class="lead">Try food from around the world.</p>
       </div>
-      </div>
+    </div>
   </div>
   <a class="left carousel-control" href="#carousel" data-slide="prev">
     <span class="icon-prev"></span>
   </a>
   <a class="right carousel-control" href="#carousel" data-slide="next">
     <span class="icon-next"></span>
+  </a>
 </div>
+<!--End Carousel -->
+
+<div class="container-fluid">
+  <div id="middle" class="row">
+
+<!--About Section-->
+    <div class="col-md-4">
+      <div id="mid">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquex ea commodo consequat. Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exceptesint occaecat cupidatat non proident, sunt in culpa qui officia deserumollit anim id est laborum.</p>
+      <a class="btn btn-default" href="#" role="button">Read More</a>
+      </div>
+    </div>
+<!--End About -->
+<!--Tips Section-->
+    <div class="col-md-4">
+      <div id="mid">
+      <h2>Tips</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed deiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquiex ea commodoconsequat. Duis aute irure dolor in reprehenderit ivoluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteusint occaecat cupidatat nonproident, sunt in culpa qui officia deserunmollit anim id est laborum.</p>
+      <a class="btn btn-default" href="#" role="button">Read More</a>
+      </div>
+    </div>
+<!--End Tips -->
+<!--Gallery Section-->
+   <div class="col-md-4">
+     <div id="mid">
+      <h2>Recipes</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <a class="btn btn-default" href="#" role="button">Read More</a>
+      </div>
+    </div>
+
 </div>
+
+<!--End Carousel -->
+<!--End Carousel -->
+<div id="middle" class="row">
+
+
 
 
 <!--End Carousel -->
@@ -79,9 +131,8 @@
 
 
 
-<!--Header-->
-<!--End Header -->
 
+</div>
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
