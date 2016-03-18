@@ -3,6 +3,7 @@
   <head>
     <title></title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
@@ -10,13 +11,16 @@
 <!--Nav Bar -->
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
+      <ul class="title-area">
+        <h1>Traveling Stan</h1>
+      </ul>
+
     <ul class="nav nav-pills">
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Tips</a></li>
-      <li role="presentation" class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span>
-        </a>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Gallery<span class="caret"></span>
         <ul class="dropdown-menu">
           <li><a href="#">Thailand</a></li>
           <li><a href="#">Italy</a></li>
@@ -27,13 +31,51 @@
     </div>
   </nav>
 
-
-
 <!-- End Nav Bar -->
+<div id="carousel" class="carousel slide jumbotron">
+  <div class="container">
+    <ol class="carousel-indicators">
+      <li class="active" data-target="#carousel" data-slide-to="0"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
 
-<!--Modal -->
+      <div class="item active">
+        <h1>Look</h1>
+        <p>See all of the attractions that the world has to offer.</p>
+        <p class="btn-group">
+          <a class="btn btn-success btn-lg" href="#">View</a>
+        </p>
+      </div>
 
-<!--End Modal -->
+      <div class="item">
+        <h1>Listen</h1>
+        <p>Hear different stories from people all over the globe.</p>
+        <p class="btn-group">
+          <a class="btn btn-success btn-lg" href="#">Listen Here</a>
+        </p>
+      </div>
+
+      <div class="item">
+        <h1>Taste</h1>
+        <p>Try food from around the world.</p>
+      </div>
+
+    </div>
+  </div>
+  <a class="left carousel-control" href="#carousel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel" data-slide="next">
+    <span class="icon-next"></span>
+</div>
+
+<!--carousel -->
+
+
+
+<!--End Carousel -->
 
 <!--About -->
 <!--End About -->
@@ -47,7 +89,8 @@
 <!--Header-->
 <!--End Header -->
 
-
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 
   </body>
