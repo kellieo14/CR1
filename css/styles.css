@@ -10,14 +10,30 @@ body {
 .carousel-indicators {
   bottom: 0;
 }
-#carousel h1 {
-  text-align: center;
-}
 
-#carousel p {
-  text-align: center;
 }
 
 .item {
-  text-align: center;
+  text-align: right;
+
+}
+#carousel h1 {
+  text-align: left;
+}
+
+#carousel p {
+  text-align: left;
+  margin-top: 90px;
+}
+
+#carousel .imgc{
+float:right;
+height: 300px;
+border: 4px solid white;
+margin-right: 70px;
+margin-bottom: 20px;
+}
+
+#carousel {
+  background-color: #b3ccff;
 }
