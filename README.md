@@ -1,12 +1,12 @@
-# Traveling Stan
+# Kellie Olson
 
-#### HTML, CSS, Bootstrap Exercise for Epicodusm 03.18.2016
+#### HTML, CSS, Bootstrap Exercise for Epicodus 03.18.2016
 
 #### By Kellie Olson
 
 ## Description
 
-This webpage follows Stan as he travels around the globe. It shows his blog entries, photo galleries, his recipes from around the world and stories from people he meets along the way. This is an exercise in HTML, CSS and Bootstrap.
+This webpage shows a biography of Kellie: her history, hobbies, and projects she has worked on. This is an exercise in HTML, CSS and Bootstrap.
 
 ## Setup
 
